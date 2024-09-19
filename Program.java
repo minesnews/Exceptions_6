@@ -76,7 +76,7 @@ public class Program {
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, true))) {
             writer.write(line);
-            writer.newLine(); // Переход на новую строку
+            writer.newLine();
         }
 
 
